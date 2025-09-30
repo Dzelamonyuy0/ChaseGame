@@ -54,8 +54,8 @@ def main():
                 obstacles.remove(obs)
                 missed_obstacles += 1
                 missed_display.setText("Missed: {}".format(missed_obstacles))
-                # End the game if 3 obstacles are missed
-                if missed_obstacles >= 3:
+                # End the game if a total of 3 obstacles are missed
+                if missed_obstacles == 3:
                     display_final_score(win, score)
                     win.close() 
                     return
