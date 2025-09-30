@@ -34,4 +34,4 @@ meesaa.png (background image).
 plane.png (plane image).
 
 Run the code:
-python space_game.py
+python chase_game.py.py
