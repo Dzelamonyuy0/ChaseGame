@@ -78,7 +78,6 @@ def main():
                     projectiles.remove(proj)
                     obstacles.remove(obs)
 
-
                     score+=1
                     score_display.setText("Score: {}".format(score))
                     break  # Break to avoid modifying lists while iterating
@@ -224,3 +223,4 @@ class Projectile:
         self.bullet.undraw()
 
 main()
+
